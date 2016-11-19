@@ -129,9 +129,6 @@ private:
 
             if (!s || !s->isRed) {
                 g->isRed = true;
-                if (isKLeft) {
-                    p->isRed = false;
-                }
                 if (isPLeft) {
                     if (!isKLeft) {
                         k->isRed = false;
